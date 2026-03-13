@@ -1,0 +1,23 @@
+zone "team9.local" IN {
+    type master;
+    file "internal.zone";
+    allow-update { none };
+};
+
+zone "team9.ncaecybergames.org" IN {
+    type master;
+    file "external.zone";
+    allow-update { none };
+};
+
+zone "18.172.in-addr.arpa" IN {
+    type master;
+    file "rev.external.zone";
+    allow-update { none };
+};
+
+zone "9.168.192.in-addr.arpa" IN {
+    type master;
+    file "rev.internal.zone";
+    allow-update { none };
+};
