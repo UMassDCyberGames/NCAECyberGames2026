@@ -10,7 +10,7 @@ gateway  = input("Default gateway [192.168.9.1]: ").strip() or "192.168.9.1"
 dns      = input("DNS server [172.18.0.12]: ").strip() or "172.18.0.12"
 
 def send_command(cmd, delay=1):
-    pyautogui.typewrite(cmd, interval=0.05)
+    pyautogui.typewrite(cmd, interval=0.02)
     pyautogui.press('enter')
     time.sleep(delay)
 

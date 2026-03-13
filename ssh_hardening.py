@@ -6,7 +6,7 @@ print("=== SSH Hardening ===\n")
 new_port = input("SSH port [22]: ").strip() or "22"
 
 def send_command(cmd, delay=1):
-    pyautogui.typewrite(cmd, interval=0.05)
+    pyautogui.typewrite(cmd, interval=0.02)
     pyautogui.press('enter')
     time.sleep(delay)
 

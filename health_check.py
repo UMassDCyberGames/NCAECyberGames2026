@@ -10,7 +10,7 @@ print("  4. Backup      (rsync/cron)")
 vm_type = input("\nSelect VM type (1-4): ").strip()
 
 def send_command(cmd, delay=1):
-    pyautogui.typewrite(cmd, interval=0.05)
+    pyautogui.typewrite(cmd, interval=0.02)
     pyautogui.press('enter')
     time.sleep(delay)
 

@@ -19,7 +19,7 @@ backup_dst = input("Backup destination [/backup]: ").strip() or "/backup"
 interval   = input("Cron schedule [0 * * * *] (hourly): ").strip() or "0 * * * *"
 
 def send_command(cmd, delay=1):
-    pyautogui.typewrite(cmd, interval=0.05)
+    pyautogui.typewrite(cmd, interval=0.02)
     pyautogui.press('enter')
     time.sleep(delay)
 
