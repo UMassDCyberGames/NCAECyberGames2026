@@ -10,7 +10,7 @@ $TTL 300
 @   IN  NS  trench-dns.team9.net.
 
 ; PTR Records (Pointer Records for Reverse DNS)
-9.1  IN  PTR gateway.team9.net
+9.9   IN  PTR gateway.team9.net
 9.5   IN  PTR www.team9.net
 9.7   IN  PTR db.team9.net
 9.12   IN  PTR ns1.team9.net
