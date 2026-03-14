@@ -1,19 +1,19 @@
 zone "team9.net" IN {
     type master;
-    file "internal.zone";
+    file "/etc/bind/internal.zone";
 };
 
 zone "team9.ncaecybergames.org" IN {
     type master;
-    file "external.zone";
+    file "/etc/bind/external.zone";
 };
 
 zone "18.172.in-addr.arpa" IN {
     type master;
-    file "rev.external.zone";
+    file "/etc/bind/rev.external.zone";
 };
 
 zone "168.192.in-addr.arpa" IN {
     type master;
-    file "rev.internal.zone";
+    file "/etc/bind/rev.internal.zone";
 };
