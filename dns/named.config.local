@@ -1,3 +1,7 @@
+options {
+    dnssec-validation no;
+}
+
 zone "team9.local" IN {
     type master;
     file "internal.zone";
