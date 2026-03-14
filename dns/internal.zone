@@ -1,5 +1,5 @@
 $TTL 300
-@   IN  SOA ns1.team9.local. ns1.team9.local. (
+@   IN  SOA trench-dns.team9.net. root.localhost. (
             1 ; Serial 
             30      ; Refresh
             60      ; Retry
@@ -7,14 +7,16 @@ $TTL 300
             86400 )    ; Minimum TTL
 
 ; Name Servers
-@   IN  NS  ns1.team9.local.
+@   IN  NS  trench-dns.team9.net.
 
 ; Name Server A Record (Replace with your actual DNS server's IP)
 ns1     IN  A   192.168.9.12 
 
 ; Custom A Records
+gateway IN  A   192.168.9.1
 files   IN  A   172.18.14.9
 www     IN  A   192.168.9.5
 shell   IN  A   172.18.14.9
 db      IN  A   192.168.9.7
 backup  IN  A   192.168.9.15
+trench-dns  IN  A   192.168.9.12

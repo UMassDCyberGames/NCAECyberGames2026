@@ -1,5 +1,5 @@
 $TTL 300
-@   IN  SOA ns1.team9.ncaecybergames.org. ns1.team9.ncaecybergames.org. (
+@   IN  SOA trench-dns.team9.ncaecybergames.org. root.localhost. (
             1 ; Serial 
             30      ; Refresh
             60      ; Retry
@@ -7,14 +7,13 @@ $TTL 300
             86400 )    ; Minimum TTL
 
 ; Name Servers
-@   IN  NS  ns1.team9.ncaecybergames.org.
+@   IN  NS  trench-dns.team9.ncaecybergames.org.
 
-; Name Server A Record (Replace with your actual DNS server's IP)
-ns1     IN  A   192.168.9.1 
+
 
 ; Custom A Records
-files   IN  A   172.18.14.9
-www     IN  A   192.168.9.1
-shell   IN  A   172.18.14.9
-db      IN  A   192.168.9.1
-backup  IN  A   192.168.9.1
+www   IN  A   172.18.13.9
+ns1     IN  A   172.18.13.9
+trench-dns   IN  A   172.18.13.9
+shell      IN  A   172.18.14.9
+files  IN  A   172.18.14.9
