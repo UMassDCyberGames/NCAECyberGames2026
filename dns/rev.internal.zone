@@ -1,0 +1,17 @@
+$TTL 300
+@   IN  SOA ns1.team9.local. ns1.team9.local. (
+            1 ; Serial 
+            30      ; Refresh
+            60      ; Retry
+            300     ; Expire
+            86400 )    ; Minimum TTL
+
+; Name Servers
+@   IN  NS  ns1.team9.local.
+
+; PTR Records (Pointer Records for Reverse DNS)
+1   IN  PTR router.team9.local
+5   IN  PTR www.team9.local.
+7   IN  PTR db.team9.local.
+12  IN  PTR ns1.team9.local.
+15  IN  PTR backup.team9.local.

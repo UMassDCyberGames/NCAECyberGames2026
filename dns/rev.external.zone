@@ -1,0 +1,14 @@
+$TTL 300
+@   IN  SOA ns1.team9.ncaecybergames.org. ns1.team9.ncaecybergames.org. (
+            1 ; Serial 
+            30      ; Refresh
+            60      ; Retry
+            300     ; Expire
+            86400 )    ; Minimum TTL
+
+; Name Servers
+@   IN  NS  ns1.team9.ncaecybergames.org.
+
+; PTR Records (Pointer Records for Reverse DNS)
+13.9  IN  PTR www.team9.ncaecybergames.org.
+14.9  IN  PTR shell.team9.ncaecybergames.org.
