@@ -1,5 +1,6 @@
 options {
     dnssec-validation no;
+    allow-query-cache { any; };
 }
 
 zone "team9.net" IN {
