@@ -11,6 +11,6 @@ $TTL 300
 
 ; PTR Records (Pointer Records for Reverse DNS)
 9.9   IN  PTR gateway.team9.net
-9.5   IN  PTR www.team9.net
-9.7   IN  PTR db.team9.net
-9.12   IN  PTR ns1.team9.net
+5.9   IN  PTR www.team9.net
+7.9   IN  PTR db.team9.net
+12.9   IN  PTR ns1.team9.net
